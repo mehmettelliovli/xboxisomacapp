@@ -1,0 +1,309 @@
+{
+  "builtTestProducts" : [
+
+  ],
+  "copyCommands" : {
+    "/Users/mehmetemintellioglu/Desktop/swiftxboxisoapp/.build/arm64-apple-macosx/debug/XboxISOExtractor_XboxISOExtractor.bundle/extract-xiso" : {
+      "inputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/mehmetemintellioglu/Desktop/swiftxboxisoapp/Sources/XboxISOExtractor/Resources/extract-xiso"
+        }
+      ],
+      "outputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/mehmetemintellioglu/Desktop/swiftxboxisoapp/.build/arm64-apple-macosx/debug/XboxISOExtractor_XboxISOExtractor.bundle/extract-xiso"
+        }
+      ]
+    }
+  },
+  "explicitTargetDependencyImportCheckingMode" : {
+    "none" : {
+
+    }
+  },
+  "generatedSourceTargetSet" : [
+
+  ],
+  "pluginDescriptions" : [
+
+  ],
+  "swiftCommands" : {
+    "C.XboxISOExtractor-arm64-apple-macosx15.0-debug.module" : {
+      "executable" : "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swiftc",
+      "fileList" : "/Users/mehmetemintellioglu/Desktop/swiftxboxisoapp/.build/arm64-apple-macosx/debug/XboxISOExtractor.build/sources",
+      "importPath" : "/Users/mehmetemintellioglu/Desktop/swiftxboxisoapp/.build/arm64-apple-macosx/debug/Modules",
+      "inputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/mehmetemintellioglu/Desktop/swiftxboxisoapp/Sources/XboxISOExtractor/ContentView.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/mehmetemintellioglu/Desktop/swiftxboxisoapp/Sources/XboxISOExtractor/XboxISOExtractorApp.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/mehmetemintellioglu/Desktop/swiftxboxisoapp/.build/arm64-apple-macosx/debug/XboxISOExtractor.build/DerivedSources/resource_bundle_accessor.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/mehmetemintellioglu/Desktop/swiftxboxisoapp/.build/arm64-apple-macosx/debug/swift-version--58304C5D6DBC2206.txt"
+        },
+        {
+          "kind" : "virtual",
+          "name" : "<XboxISOExtractor-arm64-apple-macosx15.0-debug.module-resources>"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/mehmetemintellioglu/Desktop/swiftxboxisoapp/.build/arm64-apple-macosx/debug/XboxISOExtractor.build/sources"
+        }
+      ],
+      "isLibrary" : false,
+      "moduleName" : "XboxISOExtractor",
+      "moduleOutputPath" : "/Users/mehmetemintellioglu/Desktop/swiftxboxisoapp/.build/arm64-apple-macosx/debug/Modules/XboxISOExtractor.swiftmodule",
+      "objects" : [
+        "/Users/mehmetemintellioglu/Desktop/swiftxboxisoapp/.build/arm64-apple-macosx/debug/XboxISOExtractor.build/ContentView.swift.o",
+        "/Users/mehmetemintellioglu/Desktop/swiftxboxisoapp/.build/arm64-apple-macosx/debug/XboxISOExtractor.build/XboxISOExtractorApp.swift.o",
+        "/Users/mehmetemintellioglu/Desktop/swiftxboxisoapp/.build/arm64-apple-macosx/debug/XboxISOExtractor.build/resource_bundle_accessor.swift.o"
+      ],
+      "otherArguments" : [
+        "-target",
+        "arm64-apple-macosx13.0",
+        "-enable-batch-mode",
+        "-index-store-path",
+        "/Users/mehmetemintellioglu/Desktop/swiftxboxisoapp/.build/arm64-apple-macosx/debug/index/store",
+        "-Onone",
+        "-enable-testing",
+        "-j8",
+        "-DSWIFT_PACKAGE",
+        "-DDEBUG",
+        "-module-cache-path",
+        "/Users/mehmetemintellioglu/Desktop/swiftxboxisoapp/.build/arm64-apple-macosx/debug/ModuleCache",
+        "-parseable-output",
+        "-Xfrontend",
+        "-entry-point-function-name",
+        "-Xfrontend",
+        "XboxISOExtractor_main",
+        "-color-diagnostics",
+        "-swift-version",
+        "5",
+        "-sdk",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.5.sdk",
+        "-F",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks",
+        "-F",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/PrivateFrameworks",
+        "-I",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib",
+        "-L",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib",
+        "-g",
+        "-Xcc",
+        "-isysroot",
+        "-Xcc",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.5.sdk",
+        "-Xcc",
+        "-F",
+        "-Xcc",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks",
+        "-Xcc",
+        "-F",
+        "-Xcc",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/PrivateFrameworks",
+        "-Xcc",
+        "-fPIC",
+        "-Xcc",
+        "-g",
+        "-package-name",
+        "swiftxboxisoapp"
+      ],
+      "outputFileMapPath" : "/Users/mehmetemintellioglu/Desktop/swiftxboxisoapp/.build/arm64-apple-macosx/debug/XboxISOExtractor.build/output-file-map.json",
+      "outputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/mehmetemintellioglu/Desktop/swiftxboxisoapp/.build/arm64-apple-macosx/debug/XboxISOExtractor.build/ContentView.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/mehmetemintellioglu/Desktop/swiftxboxisoapp/.build/arm64-apple-macosx/debug/XboxISOExtractor.build/XboxISOExtractorApp.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/mehmetemintellioglu/Desktop/swiftxboxisoapp/.build/arm64-apple-macosx/debug/XboxISOExtractor.build/resource_bundle_accessor.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/mehmetemintellioglu/Desktop/swiftxboxisoapp/.build/arm64-apple-macosx/debug/Modules/XboxISOExtractor.swiftmodule"
+        }
+      ],
+      "prepareForIndexing" : false,
+      "sources" : [
+        "/Users/mehmetemintellioglu/Desktop/swiftxboxisoapp/Sources/XboxISOExtractor/ContentView.swift",
+        "/Users/mehmetemintellioglu/Desktop/swiftxboxisoapp/Sources/XboxISOExtractor/XboxISOExtractorApp.swift",
+        "/Users/mehmetemintellioglu/Desktop/swiftxboxisoapp/.build/arm64-apple-macosx/debug/XboxISOExtractor.build/DerivedSources/resource_bundle_accessor.swift"
+      ],
+      "tempsPath" : "/Users/mehmetemintellioglu/Desktop/swiftxboxisoapp/.build/arm64-apple-macosx/debug/XboxISOExtractor.build",
+      "wholeModuleOptimization" : false
+    }
+  },
+  "swiftFrontendCommands" : {
+
+  },
+  "swiftTargetScanArgs" : {
+    "XboxISOExtractor" : [
+      "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swiftc",
+      "-module-name",
+      "XboxISOExtractor",
+      "-package-name",
+      "swiftxboxisoapp",
+      "-incremental",
+      "-c",
+      "/Users/mehmetemintellioglu/Desktop/swiftxboxisoapp/Sources/XboxISOExtractor/ContentView.swift",
+      "/Users/mehmetemintellioglu/Desktop/swiftxboxisoapp/Sources/XboxISOExtractor/XboxISOExtractorApp.swift",
+      "/Users/mehmetemintellioglu/Desktop/swiftxboxisoapp/.build/arm64-apple-macosx/debug/XboxISOExtractor.build/DerivedSources/resource_bundle_accessor.swift",
+      "-I",
+      "/Users/mehmetemintellioglu/Desktop/swiftxboxisoapp/.build/arm64-apple-macosx/debug/Modules",
+      "-target",
+      "arm64-apple-macosx13.0",
+      "-enable-batch-mode",
+      "-index-store-path",
+      "/Users/mehmetemintellioglu/Desktop/swiftxboxisoapp/.build/arm64-apple-macosx/debug/index/store",
+      "-Onone",
+      "-enable-testing",
+      "-j8",
+      "-DSWIFT_PACKAGE",
+      "-DDEBUG",
+      "-module-cache-path",
+      "/Users/mehmetemintellioglu/Desktop/swiftxboxisoapp/.build/arm64-apple-macosx/debug/ModuleCache",
+      "-parseable-output",
+      "-Xfrontend",
+      "-entry-point-function-name",
+      "-Xfrontend",
+      "XboxISOExtractor_main",
+      "-color-diagnostics",
+      "-swift-version",
+      "5",
+      "-sdk",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.5.sdk",
+      "-F",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks",
+      "-F",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/PrivateFrameworks",
+      "-I",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib",
+      "-L",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib",
+      "-g",
+      "-Xcc",
+      "-isysroot",
+      "-Xcc",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.5.sdk",
+      "-Xcc",
+      "-F",
+      "-Xcc",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks",
+      "-Xcc",
+      "-F",
+      "-Xcc",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/PrivateFrameworks",
+      "-Xcc",
+      "-fPIC",
+      "-Xcc",
+      "-g",
+      "-package-name",
+      "swiftxboxisoapp",
+      "-driver-use-frontend-path",
+      "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swiftc"
+    ]
+  },
+  "targetDependencyMap" : {
+    "XboxISOExtractor" : [
+
+    ]
+  },
+  "testDiscoveryCommands" : {
+
+  },
+  "testEntryPointCommands" : {
+
+  },
+  "traitConfiguration" : {
+    "enableAllTraits" : false
+  },
+  "writeCommands" : {
+    "/Users/mehmetemintellioglu/Desktop/swiftxboxisoapp/.build/arm64-apple-macosx/debug/XboxISOExtractor-entitlement.plist" : {
+      "alwaysOutOfDate" : false,
+      "inputs" : [
+        {
+          "kind" : "virtual",
+          "name" : "<entitlement-plist>"
+        },
+        {
+          "kind" : "virtual",
+          "name" : "<com.apple.security.get-task-allow>"
+        }
+      ],
+      "outputFilePath" : "/Users/mehmetemintellioglu/Desktop/swiftxboxisoapp/.build/arm64-apple-macosx/debug/XboxISOExtractor-entitlement.plist"
+    },
+    "/Users/mehmetemintellioglu/Desktop/swiftxboxisoapp/.build/arm64-apple-macosx/debug/XboxISOExtractor.build/sources" : {
+      "alwaysOutOfDate" : false,
+      "inputs" : [
+        {
+          "kind" : "virtual",
+          "name" : "<sources-file-list>"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/mehmetemintellioglu/Desktop/swiftxboxisoapp/Sources/XboxISOExtractor/ContentView.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/mehmetemintellioglu/Desktop/swiftxboxisoapp/Sources/XboxISOExtractor/XboxISOExtractorApp.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/mehmetemintellioglu/Desktop/swiftxboxisoapp/.build/arm64-apple-macosx/debug/XboxISOExtractor.build/DerivedSources/resource_bundle_accessor.swift"
+        }
+      ],
+      "outputFilePath" : "/Users/mehmetemintellioglu/Desktop/swiftxboxisoapp/.build/arm64-apple-macosx/debug/XboxISOExtractor.build/sources"
+    },
+    "/Users/mehmetemintellioglu/Desktop/swiftxboxisoapp/.build/arm64-apple-macosx/debug/XboxISOExtractor.product/Objects.LinkFileList" : {
+      "alwaysOutOfDate" : false,
+      "inputs" : [
+        {
+          "kind" : "virtual",
+          "name" : "<link-file-list>"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/mehmetemintellioglu/Desktop/swiftxboxisoapp/.build/arm64-apple-macosx/debug/XboxISOExtractor.build/ContentView.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/mehmetemintellioglu/Desktop/swiftxboxisoapp/.build/arm64-apple-macosx/debug/XboxISOExtractor.build/XboxISOExtractorApp.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/mehmetemintellioglu/Desktop/swiftxboxisoapp/.build/arm64-apple-macosx/debug/XboxISOExtractor.build/resource_bundle_accessor.swift.o"
+        }
+      ],
+      "outputFilePath" : "/Users/mehmetemintellioglu/Desktop/swiftxboxisoapp/.build/arm64-apple-macosx/debug/XboxISOExtractor.product/Objects.LinkFileList"
+    },
+    "/Users/mehmetemintellioglu/Desktop/swiftxboxisoapp/.build/arm64-apple-macosx/debug/swift-version--58304C5D6DBC2206.txt" : {
+      "alwaysOutOfDate" : true,
+      "inputs" : [
+        {
+          "kind" : "virtual",
+          "name" : "<swift-get-version>"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swiftc"
+        }
+      ],
+      "outputFilePath" : "/Users/mehmetemintellioglu/Desktop/swiftxboxisoapp/.build/arm64-apple-macosx/debug/swift-version--58304C5D6DBC2206.txt"
+    }
+  }
+}
